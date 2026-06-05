@@ -1,0 +1,41 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+pytest-cache-files-*/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local tooling caches
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Local references, personal data, and generated outputs
+Ref/
+data/
+private_data/
+personal_data/
+outputs/
+output/
+results/
+exports/
+*.log
+*.tmp
+*.bak
