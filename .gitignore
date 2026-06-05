@@ -39,3 +39,6 @@ exports/
 *.log
 *.tmp
 *.bak
+
+# 光学数据
+examples/materials/1060-hl.mdf
